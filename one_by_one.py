@@ -85,7 +85,7 @@ def mark_cell(x,y):
             validinputs = []
             messagebox.showinfo("End Game",f"Congrats player {turn}, you won!")
         elif rounds == 9:
-            messagebox.shoinfo("Tie Game", "Game over, it's tie!")
+            messagebox.showinfo("Tie Game", "Game over, it's tie!")
         rounds +=1
             
         if turn == "blue":
